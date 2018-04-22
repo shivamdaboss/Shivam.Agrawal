@@ -460,12 +460,12 @@ nav a:hover{
 }
 
 .indContainer{
-  height: 110vh;
+  height: 100vh;
   width: 100%;
   background-color: black;
 }
 .indContainer h1{
-  padding-top: 5%;
+  padding-top: 10px;
   color: white;
   font-family: Avenir, Times, Serif;
   text-align: center;
