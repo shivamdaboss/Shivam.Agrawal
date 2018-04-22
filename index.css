@@ -1,0 +1,562 @@
+*{
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+.introContainer{
+
+  background: url("team.jpg");
+
+  text-align: center;
+
+  width: 100%;
+
+  height: 100vh;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-attachment: fixed;
+
+  max-width: 100%;
+
+  margin: 0;
+
+}
+
+.trans{
+
+  width:100%;
+
+  height:100%;
+
+  background-color: rgba(0, 0, 0, .5);
+
+}
+
+nav {
+
+  z-index: 1;
+
+  opacity: 1;
+
+  color: white;
+
+  position: fixed;
+
+  width: 100%;
+
+  height: 45px;
+
+  padding: 10px;
+
+}
+
+nav ul{
+
+  opacity: 1;
+
+  list-style: none;
+
+}
+
+nav li{
+
+  opacity: 1;
+
+  width: 13%;
+
+  float: left;
+
+  margin: 0 2px;
+
+  text-align: left;
+
+  height: 100%;
+
+  line-height:45px;
+
+}
+
+.black{
+
+  background-color: rgba(0, 0, 0, 1);
+
+}
+
+nav a{
+
+  opacity: 1;
+
+  color: #7cc970;
+
+  display: block;
+
+  text-decoration: none;
+
+  font-size: 100%;
+
+  text-align: center;
+
+  font-family: Avenir, Times, serif;
+
+}
+
+nav a:hover{
+
+  opacity: 1;
+
+  color:white;
+
+}
+
+.introMess{
+
+  z-index: 0;
+
+  text-align: center;
+
+  position: relative;
+
+  top: 45%;
+
+  color: #ffffff;
+
+  letter-spacing: 2px;
+
+}
+
+.introMess h1{
+
+  font-family: Avenir, Times, serif;
+
+  font-size: 350%;
+
+  line-height: 200%;
+
+  color: white;
+
+  animation: water 3s 1;
+
+}
+
+.introMess h4{
+
+  font-family: Avenir, Times, serif;
+
+  font-size: 100%;
+
+  line-height: 100%;
+
+  color: white;
+
+  animation: water 3s 1;
+
+}
+
+.introMess a{
+
+  font-family: Avenir, Times, serif;
+
+  font-size: 100%;
+
+  text-decoration: none;
+
+  color: white;
+
+  border: solid white;
+
+  padding: 10px 20px;
+
+  border-radius:9px;
+
+  animation: water 3s 1;
+
+}
+
+.introMess a:hover{
+
+  color: #98c8ff;
+
+  border-color: #98c8ff ;
+
+}
+
+@keyframes water{
+
+  0%{
+
+    opacity: 0;
+
+  }
+
+}
+
+.aboutContainer{
+
+    letter-spacing: 2px;
+
+    width: 100%;
+
+    height: 100vh;
+
+}
+
+.content {
+
+  padding-left: 5%;
+
+  border-left: solid;
+
+  border-left-color: #7cc970;
+
+  float: left;
+
+  font-family: Avenir, Times, serif;
+
+  margin-top:5%;
+
+  margin-left: 10%;
+
+  width: 40%;
+
+}
+
+.content h1{
+
+  font-size: 650%;
+
+}
+
+.content h3{
+
+  font-size: 250%;
+
+  color: grey;
+
+}
+
+.content p{
+
+  font-size: 150%;
+
+  color: black;
+
+}
+
+.pic{
+
+  width: 40%;
+
+  float: right;
+
+}
+
+.pic img{
+
+  margin-top: 25%;
+
+  width: 90%;
+
+}
+
+.skillsContainer{
+
+  width: 100%;
+
+  background: linear-gradient(to left, #2a7528, #7cc970, #2a7528) ;
+
+  height: 70vh;
+
+}
+
+.skillsTitle h1{
+
+  border-bottom: solid black;
+
+  padding-top: 5%;
+
+  padding-bottom: 0%;
+
+  font-weight: 100;
+
+  margin-left: 40.5%;
+
+  margin-right: 42.5%;
+
+  margin-bottom: 5%;
+
+  font-family: Avenir, Times, Serif;
+
+  color: #666460;
+
+  font-size: 600%;
+
+}
+
+.mechContainer, #slider, .slide-content{
+
+  padding: 0;
+
+  font-family: Avenir, Times, Serif;
+
+  width: 100%;
+
+  height: 100vh;
+
+  overflow-x: hidden;
+
+  overflow-y: hidden;
+
+}
+
+
+#mech {
+  text-align: center;
+  font-family: Avenir, Times, Serif;
+  font-weight: 100;
+  font-size: 300%;
+  padding-top: 70px;
+  border-top: solid;
+  border-top-color: #7cc970;
+  background:rgba(0, 0, 0, .5);
+}
+
+.mechContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: rgba(0, 0, 0, 1);
+}
+
+.slider-wrapper {
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.inner-wrapper {
+  width: 500%;
+  height: 100%;
+  position: relative;
+  left: -100%;
+
+}
+
+.slide {
+  width: calc(100% / 5);
+  height: 90%;
+  float: left;
+  font-size: 100px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+}
+
+#s1{
+  background: url('NewSlideI.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#s2{
+  background: url('slideII.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#s3{
+  background: url('slideIII.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#s4{
+  background: url('NewSlideIV.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#s5{
+  background: url('NewSlideV.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#s6{
+  background: url('NewSlideVI.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid black;
+  position: absolute;
+  cursor: pointer;
+}
+
+.prev {
+  border-left: 2px solid black;
+  left: 3%;
+  transform: rotate(-45deg);
+}
+
+.next {
+  border-right: 2px solid black;
+  right: 3%;
+  transform: rotate(45deg);
+}
+
+.progContainer{
+
+  width: 80%;
+  height: 80vh;
+  margin-left: 10%;
+  font-family: Avenir, Times, Serif;
+
+}
+
+.progContent{
+  padding-top: 10px;
+  font-size: 100%;
+  color: grey;
+  border-left: solid;
+  border-right: solid;
+  border-left-color:#7cc970;
+  border-right-color:#7cc970;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.progTitle{
+  font-family: Avenir, Times, Serif;
+  font-size: 200%;
+  background: url("coding.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  color: #7cc970;
+  background-attachment: fixed;
+  padding-top:50px;
+}
+
+.indContainer{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.indContainer h1{
+  color: white;
+  font-family: Avenir, Times, Serif;
+  text-align: center;
+  font-size: 500%;
+}
+.indPong{
+  float: left;
+  font-family: Avenir, Times, Serif;
+  text-align: center;
+  justify-content: center;
+  width: 26.6%;
+  border-left: solid;
+  border-right: solid;
+  border-left-color:#7cc970;
+  border-right-color:#7cc970;
+  background: white;
+  margin-left: 10%;
+  color: black;
+  height: 80vh;
+}
+.indTeach{
+  float: left;
+  font-family: Avenir, Times, Serif;
+  text-align: center;
+  justify-content: center;
+  width: 26.6%;
+  border-left: solid;
+  border-right: solid;
+  border-left-color:#7cc970;
+  border-right-color:#7cc970;
+  background: white;
+  color: black;
+  height: 80vh;
+}
+.indWeb{
+  float: left;
+  font-family: Avenir, Times, Serif;
+  text-align: center;
+  justify-content: center;
+  width: 26.6%;
+  border-left: solid;
+  border-right: solid;
+  border-left-color:#7cc970;
+  border-right-color:#7cc970;
+  background: white;
+  color: black;
+  height: 80vh;
+}
+.indPong h2{
+  font-size: 300%;
+  border-bottom: solid;
+  border-color: #7cc970;
+}
+.indTeach h2{
+  font-size: 300%;
+  border-bottom: solid;
+  border-color: #7cc970;
+}
+.indWeb h2{
+  font-size: 300%;
+  border-bottom: solid;
+  border-color: #7cc970;
+}
+
+.indPong p{
+  font-size: 150%;
+  color: grey;
+}
+.indTeach p{
+  font-size: 150%;
+  color: grey;
+}
+.indWeb p{
+  font-size: 150%;
+  color: grey;
+}
+
+.contactCont{
+  background-color: grey;
+  height: 30vh;
+  width: 100%;
+}
+.contactCont h1{
+  font-family: Avenir, Times, Serif;
+  font-size: 300%;
+  text-align: left;
+  margin-left: 20%;
+}
+
+.contactCont p{
+  font-family: Avenir, Times, Serif;
+  font-size: 200%;
+  text-align: left;
+  margin-left: 30%;
+}
