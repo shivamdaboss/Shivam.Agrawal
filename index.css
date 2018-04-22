@@ -465,6 +465,7 @@ nav a:hover{
   background-color: black;
 }
 .indContainer h1{
+  padding-top: 7%;
   color: white;
   font-family: Avenir, Times, Serif;
   text-align: center;
